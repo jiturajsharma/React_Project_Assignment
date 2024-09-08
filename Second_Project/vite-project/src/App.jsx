@@ -1,4 +1,6 @@
 import './App.css'
+import ArrayPassInStack from './ArrayPassInState';
+import ConditionalRendering from './conditionalRendering';
 import Counter from './Counter';
 
 function App() {
@@ -10,7 +12,10 @@ function App() {
           <Button text="Click me!" onClick={() => alert("Button Clicked") }></Button>
           <Header title="Welcome to my website"></Header>
           <List items={['apple', 'banana', 'orange']} />
-          <Counter />
+          <Counter /> <br />
+          <ConditionalRendering/> <br />
+          <ArrayPassInStack />
+
     </>
   )
 }
